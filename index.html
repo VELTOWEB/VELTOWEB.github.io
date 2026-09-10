@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VELTOWEB | Web Design & Development</title>
+
+    <meta
+        name="description"
+        content="VELTOWEB - 소상공인과 브랜드를 위한 맞춤형 웹사이트 제작"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <a href="#home" class="logo">
+            VELTOWEB
+        </a>
+
+        <nav class="nav">
+            <a href="#work">WORK</a>
+            <a href="#services">SERVICES</a>
+            <a href="#process">PROCESS</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+
+        <button
+            class="menu-button"
+            onclick="toggleMenu()"
+            aria-label="메뉴 열기"
+        >
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="#work" onclick="closeMenu()">WORK</a>
+        <a href="#services" onclick="closeMenu()">SERVICES</a>
+        <a href="#process" onclick="closeMenu()">PROCESS</a>
+        <a href="#contact" onclick="closeMenu()">CONTACT</a>
+
+        <div class="mobile-menu-bottom">
+            <span>WEB DESIGN · DEVELOPMENT</span>
+            <span>VELTOWEB © 2026</span>
+        </div>
+
+    </div>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-top">
+                <span>WEB DESIGN & DEVELOPMENT</span>
+                <span>SEOUL · KOREA</span>
+            </div>
+
+            <div class="hero-main">
+
+                <h1>
+                    WE BUILD<br>
+                    DIGITAL<br>
+                    EXPERIENCES.
+                </h1>
+
+                <div class="hero-description">
+
+                    <p>
+                        소상공인과 브랜드를 위한<br>
+                        맞춤형 웹사이트를 제작합니다.
+                    </p>
+
+                    <a href="#work">
+                        VIEW SELECTED WORK
+                        <span>↘</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-footer">
+                <span>DESIGN</span>
+                <span>DEVELOPMENT</span>
+                <span>RESPONSIVE</span>
+                <span>BRANDING</span>
+            </div>
+
+        </section>
+
+
+        <!-- WORK -->
+        <section class="work section" id="work">
+
+            <div class="section-header">
+
+                <div>
+                    <span class="section-number">01</span>
+                    <span class="section-small">SELECTED WORK</span>
+                </div>
+
+                <h2>
+                    PROJECTS
+                </h2>
+
+            </div>
+
+
+            <!-- CAFE DE LUNE -->
+            <article class="project">
+
+                <a
+                    href="https://veltoweb.github.io/cafe-de-lune/"
+                    target="_blank"
+                    class="project-image"
+                >
+                    <img
+                        src="images/cafe-de-lune.png"
+                        alt="CAFE DE LUNE 웹사이트 프로젝트"
+                    >
+
+                    <div class="project-overlay">
+                        <span>VIEW PROJECT ↗</span>
+                    </div>
+                </a>
+
+
+                <div class="project-info">
+
+                    <div>
+                        <span class="project-number">
+                            001
+                        </span>
+
+                        <h3>
+                            CAFE DE LUNE
+                        </h3>
+
+                        <p>
+                            Cafe Website · Responsive Design
+                        </p>
+                    </div>
+
+                    <div class="project-year">
+                        2026
+                    </div>
+
+                </div>
+
+                <div class="sample-label">
+                    SAMPLE PROJECT · FICTIONAL BRAND
+                </div>
+
+            </article>
+
+
+            <!-- NEXT PROJECT -->
+            <div class="next-project">
+
+                <span>002</span>
+
+                <div>
+                    <p>NEXT PROJECT</p>
+                    <h3>COMING SOON</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SERVICES -->
+        <section class="services section" id="services">
+
+            <div class="section-header light">
+
+                <div>
+                    <span class="section-number">02</span>
+                    <span class="section-small">WHAT WE DO</span>
+                </div>
+
+                <h2>
+                    SERVICES
+                </h2>
+
+            </div>
+
+
+            <div class="service-list">
+
+                <div class="service-item">
+                    <span>01</span>
+
+                    <h3>
+                        WEB DESIGN
+                    </h3>
+
+                    <p>
+                        브랜드의 분위기와 목적에 맞는
+                        웹사이트 디자인을 제작합니다.
+                    </p>
+                </div>
+
+
+                <div class="service-item">
+                    <span>02</span>
+
+                    <h3>
+                        DEVELOPMENT
+                    </h3>
+
+                    <p>
+                        PC와 모바일 환경에서
+                        안정적으로 작동하는 웹사이트를 제작합니다.
+                    </p>
+                </div>
+
+
+                <div class="service-item">
+                    <span>03</span>
+
+                    <h3>
+                        RESPONSIVE
+                    </h3>
+
+                    <p>
+                        스마트폰, 태블릿, PC 등
+                        다양한 화면에 최적화합니다.
+                    </p>
+                </div>
+
+
+                <div class="service-item">
+                    <span>04</span>
+
+                    <h3>
+                        LANDING PAGE
+                    </h3>
+
+                    <p>
+                        제품, 매장, 서비스 홍보에 필요한
+                        집중도 높은 페이지를 제작합니다.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROCESS -->
+        <section class="process section" id="process">
+
+            <div class="section-header">
+
+                <div>
+                    <span class="section-number">03</span>
+                    <span class="section-small">HOW WE WORK</span>
+                </div>
+
+                <h2>
+                    PROCESS
+                </h2>
+
+            </div>
+
+
+            <div class="process-list">
+
+                <div class="process-item">
+
+                    <span class="process-number">
+                        01
+                    </span>
+
+                    <div>
+                        <h3>CONSULTATION</h3>
+                        <p>
+                            필요한 페이지와 디자인 방향,
+                            기능을 함께 정합니다.
+                        </p>
+                    </div>
+
+                    <span class="process-arrow">
+                        ↘
+                    </span>
+
+                </div>
+
+
+                <div class="process-item">
+
+                    <span class="process-number">
+                        02
+                    </span>
+
+                    <div>
+                        <h3>DESIGN</h3>
+                        <p>
+                            브랜드와 업종에 맞는
+                            웹사이트 디자인을 제작합니다.
+                        </p>
+                    </div>
+
+                    <span class="process-arrow">
+                        ↘
+                    </span>
+
+                </div>
+
+
+                <div class="process-item">
+
+                    <span class="process-number">
+                        03
+                    </span>
+
+                    <div>
+                        <h3>DEVELOPMENT</h3>
+                        <p>
+                            확정된 디자인을 실제
+                            웹사이트로 구현합니다.
+                        </p>
+                    </div>
+
+                    <span class="process-arrow">
+                        ↘
+                    </span>
+
+                </div>
+
+
+                <div class="process-item">
+
+                    <span class="process-number">
+                        04
+                    </span>
+
+                    <div>
+                        <h3>LAUNCH</h3>
+                        <p>
+                            최종 확인과 수정을 거쳐
+                            웹사이트를 공개합니다.
+                        </p>
+                    </div>
+
+                    <span class="process-arrow">
+                        ↘
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+
+            <div class="contact-top">
+
+                <span>
+                    HAVE A PROJECT IN MIND?
+                </span>
+
+                <span>
+                    LET'S WORK TOGETHER
+                </span>
+
+            </div>
+
+
+            <div class="contact-main">
+
+                <h2>
+                    LET'S BUILD<br>
+                    SOMETHING<br>
+                    BETTER.
+                </h2>
+
+                <div class="contact-info">
+
+                    <p>
+                        웹사이트 제작이 필요하신가요?<br>
+                        VELTOWEB에 편하게 문의해주세요.
+                    </p>
+
+                    <a
+                        href="https://www.instagram.com/veltoweb_kr/"
+                        target="_blank"
+                        class="contact-button"
+                    >
+                        INSTAGRAM DM
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <footer>
+
+                <div class="footer-logo">
+                    VELTOWEB
+                </div>
+
+                <div class="footer-info">
+                    <span>WEB DESIGN · DEVELOPMENT</span>
+                    <span>© 2026 VELTOWEB</span>
+                </div>
+
+            </footer>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
