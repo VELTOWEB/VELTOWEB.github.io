@@ -1371,3 +1371,13 @@ img {
         justify-self: start;
     }
 }
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.contact-links .contact-button {
+    width: 100%;
+}
