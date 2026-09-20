@@ -1,482 +1,82 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>VELTOWEB | Web Design & Development</title>
-
-    <meta property="og:title" content="VELTOWEB | Web Design & Development">
-<meta property="og:description" content="소상공인과 브랜드를 위한 맞춤형 웹사이트 제작">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://veltoweb.github.io/">
-<meta property="og:image" content="https://veltoweb.github.io/images/preview-cover-2.png">
-<meta property="og:image:secure_url" content="https://veltoweb.github.io/images/preview-cover-2.png">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1731">
-<meta property="og:image:height" content="909">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="VELTOWEB | Web Design & Development">
-<meta name="twitter:description" content="소상공인과 브랜드를 위한 맞춤형 웹사이트 제작">
-<meta name="twitter:image" content="https://veltoweb.github.io/images/preview-cover-2.png">
-<meta
-        name="description"
-        content="VELTOWEB - 소상공인과 브랜드를 위한 맞춤형 웹사이트 제작"
-    >
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VELTOWEB | 브랜드에 어울리는 웹사이트 제작</title>
+  <meta name="description" content="소상공인과 브랜드를 위한 맞춤형 웹사이트. 디자인부터 PC·모바일 제작까지 VELTOWEB과 함께하세요.">
+  <meta property="og:title" content="VELTOWEB | 브랜드에 어울리는 웹사이트 제작">
+  <meta property="og:description" content="보기 좋고, 이용하기 쉬운 웹사이트. 디자인부터 모바일 화면까지 함께 만듭니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://veltoweb.github.io/">
+  <meta property="og:image" content="https://veltoweb.github.io/images/preview-cover-2.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#141413">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-
-    <!-- HEADER -->
-    <header class="header">
-
-        <a href="#home" class="logo">
-            VELTOWEB
-        </a>
-
-        <nav class="nav">
-            <a href="#work">WORK</a>
-            <a href="#services">SERVICES</a>
-            <a href="#process">PROCESS</a>
-            <a href="#contact">CONTACT</a>
-        </nav>
-
-        <button
-            class="menu-button"
-            onclick="toggleMenu()"
-            aria-label="메뉴 열기"
-        >
-            <span></span>
-            <span></span>
-        </button>
-
-    </header>
-
-
-    <!-- MOBILE MENU -->
-    <div class="mobile-menu" id="mobileMenu">
-
-        <a href="#work" onclick="closeMenu()">WORK</a>
-        <a href="#services" onclick="closeMenu()">SERVICES</a>
-        <a href="#process" onclick="closeMenu()">PROCESS</a>
-        <a href="#contact" onclick="closeMenu()">CONTACT</a>
-
-        <div class="mobile-menu-bottom">
-            <span>WEB DESIGN · DEVELOPMENT</span>
-            <span>VELTOWEB © 2026</span>
-        </div>
-
-    </div>
-
-
-    <!-- HERO -->
-    <main>
-
-        <section class="hero" id="home">
-
-            <div class="hero-top">
-                <span>WEB DESIGN & DEVELOPMENT</span>
-                <span>SEOUL · KOREA</span>
-            </div>
-
-            <div class="hero-main">
-
-                <h1>
-                    WE BUILD<br>
-                    DIGITAL<br>
-                    EXPERIENCES.
-                </h1>
-
-                <div class="hero-description">
-
-                    <p>
-                        소상공인과 브랜드를 위한<br>
-                        맞춤형 웹사이트를 제작합니다.
-                    </p>
-
-                    <a href="#work">
-                        VIEW SELECTED WORK
-                        <span>↘</span>
-                    </a>
-
-                </div>
-
-            </div>
-
-            <div class="hero-footer">
-                <span>DESIGN</span>
-                <span>DEVELOPMENT</span>
-                <span>RESPONSIVE</span>
-                <span>BRANDING</span>
-            </div>
-
-        </section>
-
-
-        <!-- WORK -->
-        <section class="work section" id="work">
-
-            <div class="section-header">
-
-                <div>
-                    <span class="section-number">01</span>
-                    <span class="section-small">SELECTED WORK</span>
-                </div>
-
-                <h2>
-                    PROJECTS
-                </h2>
-
-            </div>
-
-
-            <!-- CAFE DE LUNE -->
-            <article class="project">
-
-                <a
-    href="/cafe-de-lune/index.html"
-    class="project-image"
->
-                    <img
-                        src="images/cafe-de-lune.png"
-                        alt="CAFE DE LUNE 웹사이트 프로젝트"
-                    >
-
-                    <div class="project-overlay">
-                        <span>VIEW PROJECT ↗</span>
-                    </div>
-                </a>
-
-
-                <div class="project-info">
-
-                    <div>
-                        <span class="project-number">
-                            001
-                        </span>
-
-                        <h3>
-                            CAFE DE LUNE
-                        </h3>
-
-                        <p>
-                            Cafe Website · Responsive Design
-                        </p>
-                    </div>
-
-                    <div class="project-year">
-                        2026
-                    </div>
-
-                </div>
-
-                <div class="sample-label">
-                    SAMPLE PROJECT · FICTIONAL BRAND
-                </div>
-
-            </article>
-
-           <!-- ATELIER NOVE -->
-<article class="project">
-
-    <a
-        href="/atelier-nove/index.html"
-        class="project-image"
-    >
-        <img
-            src="images/atelier-nove.png"
-            alt="ATELIER NOVE 헤어 살롱 웹사이트 프로젝트"
-        >
-
-        <div class="project-overlay">
-            <span>VIEW PROJECT ↗</span>
-        </div>
-    </a>
-
-
-    <div class="project-info">
-
-        <div>
-            <span class="project-number">
-                002
-            </span>
-
-            <h3>
-                ATELIER NOVE
-            </h3>
-
-            <p>
-                Hair Salon Website · Responsive Design
-            </p>
-        </div>
-
-        <div class="project-year">
-            2026
-        </div>
-
-    </div>
-
-    <div class="sample-label">
-        SAMPLE PROJECT · FICTIONAL BRAND
-    </div>
-
-</article>
-
-        <!-- SERVICES -->
-        <section class="services section" id="services">
-
-            <div class="section-header light">
-
-                <div>
-                    <span class="section-number">02</span>
-                    <span class="section-small">WHAT WE DO</span>
-                </div>
-
-                <h2>
-                    SERVICES
-                </h2>
-
-            </div>
-
-
-            <div class="service-list">
-
-                <div class="service-item">
-                    <span>01</span>
-
-                    <h3>
-                        WEB DESIGN
-                    </h3>
-
-                    <p>
-                        브랜드의 분위기와 목적에 맞는
-                        웹사이트 디자인을 제작합니다.
-                    </p>
-                </div>
-
-
-                <div class="service-item">
-                    <span>02</span>
-
-                    <h3>
-                        DEVELOPMENT
-                    </h3>
-
-                    <p>
-                        PC와 모바일 환경에서
-                        안정적으로 작동하는 웹사이트를 제작합니다.
-                    </p>
-                </div>
-
-
-                <div class="service-item">
-                    <span>03</span>
-
-                    <h3>
-                        RESPONSIVE
-                    </h3>
-
-                    <p>
-                        스마트폰, 태블릿, PC 등
-                        다양한 화면에 최적화합니다.
-                    </p>
-                </div>
-
-
-                <div class="service-item">
-                    <span>04</span>
-
-                    <h3>
-                        LANDING PAGE
-                    </h3>
-
-                    <p>
-                        제품, 매장, 서비스 홍보에 필요한
-                        집중도 높은 페이지를 제작합니다.
-                    </p>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- PROCESS -->
-        <section class="process section" id="process">
-
-            <div class="section-header">
-
-                <div>
-                    <span class="section-number">03</span>
-                    <span class="section-small">HOW WE WORK</span>
-                </div>
-
-                <h2>
-                    PROCESS
-                </h2>
-
-            </div>
-
-
-            <div class="process-list">
-
-                <div class="process-item">
-
-                    <span class="process-number">
-                        01
-                    </span>
-
-                    <div>
-                        <h3>CONSULTATION</h3>
-                        <p>
-                            필요한 페이지와 디자인 방향,
-                            기능을 함께 정합니다.
-                        </p>
-                    </div>
-
-                    <span class="process-arrow">
-                        ↘
-                    </span>
-
-                </div>
-
-
-                <div class="process-item">
-
-                    <span class="process-number">
-                        02
-                    </span>
-
-                    <div>
-                        <h3>DESIGN</h3>
-                        <p>
-                            브랜드와 업종에 맞는
-                            웹사이트 디자인을 제작합니다.
-                        </p>
-                    </div>
-
-                    <span class="process-arrow">
-                        ↘
-                    </span>
-
-                </div>
-
-
-                <div class="process-item">
-
-                    <span class="process-number">
-                        03
-                    </span>
-
-                    <div>
-                        <h3>DEVELOPMENT</h3>
-                        <p>
-                            확정된 디자인을 실제
-                            웹사이트로 구현합니다.
-                        </p>
-                    </div>
-
-                    <span class="process-arrow">
-                        ↘
-                    </span>
-
-                </div>
-
-
-                <div class="process-item">
-
-                    <span class="process-number">
-                        04
-                    </span>
-
-                    <div>
-                        <h3>LAUNCH</h3>
-                        <p>
-                            최종 확인과 수정을 거쳐
-                            웹사이트를 공개합니다.
-                        </p>
-                    </div>
-
-                    <span class="process-arrow">
-                        ↘
-                    </span>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- CONTACT -->
-        <section class="contact" id="contact">
-
-            <div class="contact-top">
-
-                <span>
-                    HAVE A PROJECT IN MIND?
-                </span>
-
-                <span>
-                    LET'S WORK TOGETHER
-                </span>
-
-            </div>
-
-
-            <div class="contact-main">
-
-                <h2>
-                    LET'S BUILD<br>
-                    SOMETHING<br>
-                    BETTER.
-                </h2>
-
-                <div class="contact-links">
-
-    <a
-        href="https://www.instagram.com/veltoweb_kr/"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="contact-button"
-    >
-        INSTAGRAM PROFILE
-        <span>↗</span>
-    </a>
-
-    <a
-        href="https://ig.me/m/veltoweb_kr"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="contact-button"
-    >
-        SEND DM
-        <span>↗</span>
-    </a>
-
-</div>
-
-            <footer>
-
-                <div class="footer-logo">
-                    VELTOWEB
-                </div>
-
-                <div class="footer-info">
-                    <span>WEB DESIGN · DEVELOPMENT</span>
-                    <span>© 2026 VELTOWEB</span>
-                </div>
-
-            </footer>
-
-        </section>
-
-    </main>
-
-
-    <script src="script.js"></script>
-
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="header">
+    <a class="logo" href="#home" aria-label="VELTOWEB 처음으로">VELTOWEB<span class="logo-dot"></span></a>
+    <nav class="nav" aria-label="주 메뉴"><a href="#work">작업 사례</a><a href="#services">제작 서비스</a><a href="#process">진행 과정</a><a class="nav-contact" href="#contact">제작 문의 <span aria-hidden="true">↗</span></a></nav>
+    <button class="menu-button" type="button" aria-label="메뉴 열기" aria-controls="mobile-menu" aria-expanded="false"><span></span><span></span></button>
+    <div class="scroll-progress" aria-hidden="true"></div>
+  </header>
+  <dialog class="mobile-menu" id="mobile-menu" aria-label="모바일 메뉴">
+    <div class="menu-top"><span class="logo">VELTOWEB</span><button class="menu-close" type="button" aria-label="메뉴 닫기">닫기 ×</button></div>
+    <nav aria-label="모바일 주 메뉴"><a href="#work"><small>01</small>작업 사례 <span>↗</span></a><a href="#services"><small>02</small>제작 서비스 <span>↗</span></a><a href="#process"><small>03</small>진행 과정 <span>↗</span></a><a href="#contact"><small>04</small>제작 문의 <span>↗</span></a></nav>
+    <p>브랜드에 어울리는 웹사이트를 만듭니다.</p>
+  </dialog>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-top"><span>Web Design & Development</span><span>소상공인 · 브랜드 맞춤 제작</span></div>
+      <div class="hero-main">
+        <div class="hero-copy"><p class="eyebrow hero-enter">좋은 첫인상, 편안한 경험.</p><h1 id="hero-title"><span class="title-line">우리 브랜드다운</span><span class="title-line">웹사이트<span class="serif-mark">.</span></span></h1><p class="hero-sub hero-enter">보기 좋고, 이용하기 쉽게.</p></div>
+        <div class="hero-description hero-enter"><p>가게의 분위기부터 브랜드의 이야기까지.<br>고객이 궁금한 정보를 쉽게 찾고<br>자연스럽게 문의할 수 있도록 만듭니다.</p><a class="button button-light" href="#contact">웹사이트 제작 문의 <span aria-hidden="true">↗</span></a><a class="text-link" href="#work">먼저 작업 사례 둘러보기 <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <div class="hero-bottom"><p>디자인부터 제작까지, 함께합니다.</p><a href="#work" class="scroll-hint">아래로 둘러보기 <span aria-hidden="true">↓</span></a></div>
+      <div class="hero-wordmark" aria-hidden="true">VELTOWEB</div>
+    </section>
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <div class="section-heading" data-reveal><p class="eyebrow"><span>01</span> 작업 사례</p><div><h2 id="work-title">분위기는 다르게.<br>이용은 쉽게.</h2><p class="section-description">업종과 브랜드에 맞춰 달라지는 디자인.<br>두 가지 샘플 사이트에서 확인해 보세요.</p></div></div>
+      <div class="project-grid">
+        <article class="project" data-reveal>
+          <a class="project-image" href="https://veltoweb.github.io/cafe-de-lune/index.html" target="_blank" rel="noopener noreferrer" aria-label="CAFE DE LUNE 사이트 보기, 새 창"><div class="project-picture"><img src="images/cafe-de-lune.png" width="868" height="498" alt="CAFE DE LUNE 카페 웹사이트 디자인" loading="lazy" decoding="async"></div><span class="project-category">카페 웹사이트</span><span class="project-open">사이트 보기 <span aria-hidden="true">↗</span></span></a>
+          <div class="project-info"><div><p class="project-index">01 / 카페</p><h3>CAFE DE LUNE</h3></div><span class="project-year">2026</span></div><p class="project-description">카페의 여유로운 분위기를 담은 웹사이트.</p><div class="project-tags"><span>웹디자인</span><span>PC · 모바일</span><span>가상 브랜드 · 샘플</span></div>
+        </article>
+        <article class="project" data-reveal>
+          <a class="project-image" href="https://veltoweb.github.io/atelier-nove/index.html" target="_blank" rel="noopener noreferrer" aria-label="ATELIER NOVE 사이트 보기, 새 창"><div class="project-picture"><img src="images/atelier-nove.png" width="1672" height="941" alt="ATELIER NOVE 헤어 살롱 웹사이트 디자인" loading="lazy" decoding="async"></div><span class="project-category">헤어 살롱 웹사이트</span><span class="project-open">사이트 보기 <span aria-hidden="true">↗</span></span></a>
+          <div class="project-info"><div><p class="project-index">02 / 헤어 살롱</p><h3>ATELIER NOVE</h3></div><span class="project-year">2026</span></div><p class="project-description">살롱의 섬세하고 차분한 인상을 담은 웹사이트.</p><div class="project-tags"><span>웹디자인</span><span>PC · 모바일</span><span>가상 브랜드 · 샘플</span></div>
+        </article>
+      </div>
+      <p class="work-note">위 작업은 디자인과 화면 구성을 보여드리기 위한 가상 브랜드 프로젝트입니다.</p>
+    </section>
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="section-heading" data-reveal><p class="eyebrow"><span>02</span> 제작 서비스</p><div><h2 id="services-title">필요한 것만,<br>제대로 만듭니다.</h2><p class="section-description">처음 만드는 홈페이지도 어렵지 않게.<br>목적에 맞는 구성부터 함께 정합니다.</p></div></div>
+      <div class="service-list">
+        <article class="service-item" data-reveal><span class="item-number">01</span><div><h3>브랜드에 맞는 디자인</h3><span class="service-en">Web Design</span></div><p>색감, 글꼴, 사진을 업종과 분위기에 맞춰 정리해 우리 브랜드만의 첫인상을 만듭니다.</p><span class="item-arrow" aria-hidden="true">↗</span></article>
+        <article class="service-item" data-reveal><span class="item-number">02</span><div><h3>쉽게 찾는 정보</h3><span class="service-en">메뉴 · 가격 · 위치 · 소개</span></div><p>고객이 자주 찾는 정보를 알맞은 순서로 배치합니다. 문의나 예약으로 이어지는 연결도 함께 구성합니다.</p><span class="item-arrow" aria-hidden="true">↗</span></article>
+        <article class="service-item" data-reveal><span class="item-number">03</span><div><h3>어떤 화면에서도 편하게</h3><span class="service-en">PC · 태블릿 · 모바일</span></div><p>큰 모니터부터 작은 스마트폰까지. 화면 크기에 맞춰 글자와 이미지, 버튼이 자연스럽게 달라집니다.</p><span class="item-arrow" aria-hidden="true">↗</span></article>
+        <article class="service-item" data-reveal><span class="item-number">04</span><div><h3>한눈에 전하는 소개 페이지</h3><span class="service-en">매장 · 제품 · 서비스 홍보</span></div><p>꼭 전하고 싶은 내용을 한 페이지에 담습니다. 소개부터 문의까지 흐름이 끊기지 않도록 만듭니다.</p><span class="item-arrow" aria-hidden="true">↗</span></article>
+      </div>
+    </section>
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="section-heading" data-reveal><p class="eyebrow"><span>03</span> 진행 과정</p><div><h2 id="process-title">막막한 시작도,<br>차근차근 함께.</h2><p class="section-description">정리된 기획서가 없어도 괜찮습니다.<br>어떤 사이트가 필요한지 이야기부터 들려주세요.</p></div></div>
+      <ol class="process-list">
+        <li data-reveal><span class="process-number">01</span><h3>이야기 나누기</h3><p>업종과 필요한 기능, 원하는 분위기를 듣고 제작 범위와 일정을 정합니다.</p><span class="process-caption">방향 정하기</span></li>
+        <li data-reveal><span class="process-number">02</span><h3>디자인 잡기</h3><p>사진과 문구를 정리하고, 브랜드에 어울리는 화면 구성을 함께 확인합니다.</p><span class="process-caption">화면 확인하기</span></li>
+        <li data-reveal><span class="process-number">03</span><h3>웹사이트 만들기</h3><p>확인한 디자인을 실제 사이트로 만들고, PC와 모바일에서 사용성을 점검합니다.</p><span class="process-caption">기능 구현하기</span></li>
+        <li data-reveal><span class="process-number">04</span><h3>확인하고 공개하기</h3><p>문구, 이미지, 연결 버튼을 마지막으로 확인하고 수정한 뒤 사이트를 공개합니다.</p><span class="process-caption">최종 확인하기</span></li>
+      </ol>
+      <div class="prep-note" data-reveal><span aria-hidden="true">↗</span><p><strong>이 정도만 알려주셔도 좋아요.</strong> 어떤 일을 하시는지, 어떤 페이지가 필요한지, 참고하고 싶은 사이트가 있는지.</p></div>
+    </section>
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-top"><p class="eyebrow"><span>04</span> 제작 문의</p><span>작은 아이디어에서 시작해도 괜찮습니다.</span></div>
+      <div class="contact-main" data-reveal><div><h2 id="contact-title">만들고 싶은<br>사이트가 있나요<span class="serif-mark">?</span></h2><p>우리 브랜드에 어떤 웹사이트가 어울릴지,<br>편하게 이야기 나눠보세요.</p></div><div class="contact-links"><a class="button button-light" href="https://ig.me/m/veltoweb_kr" target="_blank" rel="noopener noreferrer">인스타그램으로 문의하기 <span aria-hidden="true">↗</span></a><a class="text-link" href="https://www.instagram.com/veltoweb_kr/" target="_blank" rel="noopener noreferrer">VELTOWEB 인스타그램 보기 <span aria-hidden="true">↗</span></a><p>메시지 창이 열리지 않으면 프로필에서<br>‘메시지 보내기’를 눌러주세요.</p></div></div>
+      <footer><a class="logo" href="#home">VELTOWEB<span class="logo-dot"></span></a><p>Web Design & Development</p><span>© 2026 VELTOWEB</span><a class="back-top" href="#home">맨 위로 ↑</a></footer>
+    </section>
+  </main>
 </body>
 </html>
